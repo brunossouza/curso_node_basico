@@ -9,7 +9,7 @@ Instalar dependências:
 npm install
 ```
 
-Executa o projeto:
+Executar o projeto:
 ```powershell
 npm start
 ```
