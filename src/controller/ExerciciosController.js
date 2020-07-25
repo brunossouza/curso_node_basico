@@ -10,5 +10,14 @@ module.exports = {
             numeros
         }
         return response.json(resposta)
+    },
+
+    async ordernarNumeros(request, response) {
+        let { numeros } = request.body;
+        let resposta = {
+            "exercicio": "Desenvolva um programa que leia 5 números e os imprima em ordem crescente.",
+            "numeros": numeros.sort()
+        }
+        return response.json(resposta)
     }
 }
