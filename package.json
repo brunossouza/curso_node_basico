@@ -1,7 +1,7 @@
 {
   "name": "pratica",
   "version": "1.0.0",
-  "description": "Aplicação de exemplo do curso de no de o Elon.",
+  "description": "Aplicação de exemplo do curso de node o Elon.",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon src/server.js",
